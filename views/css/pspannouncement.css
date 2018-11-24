@@ -1,0 +1,238 @@
+/**
+ * 2017-2018 PrestaPatron
+ *
+ * PrestaPatron Announcement Block
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the General Public License (GPL 2.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/GPL-2.0
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade the module to newer
+ * versions in the future.
+ *
+ *  @author    PrestaPatron
+ *  @copyright 2017-2018 PrestaPatron
+ *  @license   http://opensource.org/licenses/GPL-2.0 General Public License (GPL 2.0)
+*/
+#announcement-banner, .banner {
+  background: #cf476b !important;  
+  color:#fff;
+}
+
+.coupon-text {
+  padding-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  /*text-align: center;*/
+}
+
+.coupon-code {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.countdown {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.announcement {
+  padding-top: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.countdown-simple .announcement, 
+.countdown-coupon .announcement {
+  padding-top: 30px;
+}
+
+.announcement span {
+  display: inline;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400; 
+  margin-right: 20px;
+  text-align: center;  
+}
+
+.simple {
+  text-align: center;
+}
+
+.announcement-link {
+  display: inline !important;  
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  background: #1f294c;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+
+.announcement-link:hover {
+  background: #fff;
+  color: #1f294c;
+}
+
+.countdown > div { display: inline-block; padding-bottom: 10px; }
+
+.countdown > div > span {
+  display: block;
+  text-align: center;
+}
+
+.countdown-container { margin: 0 3px; }
+
+.countdown-container .countdown-heading {
+  font-size: 11px;
+  margin: 3px;
+  color: #fff;
+}
+
+.countdown-container .countdown-value {
+  font-size: 16px;
+  background: #1f294c;
+  padding: 10px;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+  font-weight: 700;
+}
+
+.alert-close {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4),
+    inset 0 -1px 2px rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: normal;
+  height: 22px;
+  line-height: 24px;
+  position: absolute;
+  right: 11px;
+  text-align: center;
+  top: 9px;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  width: 22px;
+}
+
+
+
+@media screen and (min-width: 1024px) 
+and (max-width: 1199px) {
+  .announcement {
+    text-align: left;    
+  }
+
+  .announcement span {
+    text-align: left;
+    font-size: 14px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) 
+and (max-width: 1023px) {
+  .announcement {
+    text-align: center;    
+  }
+
+  .announcement span {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+
+  .announcement a {
+    display: inline-block !important;
+    clear: both;
+    margin-top: 10px;
+    /*width: 100%;*/
+  }
+
+  .coupon-text {
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 480px) 
+and (max-width: 767px) {
+  .announcement {
+    text-align: center;    
+  }
+
+  .announcement span {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+
+  .announcement a {
+    display: inline-block !important;
+    clear: both;
+    margin-top: 10px;
+    /*width: 100%;*/
+  }
+
+  .coupon-text {
+    text-align: center;
+  }
+}
+
+
+@media screen and (min-width: 320px) 
+and (max-width: 479px) {
+  .announcement {
+    text-align: center;    
+  }
+
+  .announcement span {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+
+  .announcement a {
+    display: inline-block !important;
+    clear: both;
+    margin-top: 10px;
+    /*width: 100%;*/
+  }
+
+  .coupon-text {
+    text-align: center;
+  }
+
+}
+
+
